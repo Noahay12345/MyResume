@@ -1,0 +1,211 @@
+ody {
+    background-color: #EAEAEA;
+}
+
+.title {
+    color: #1D824C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    max-width: 65%; /* 70% */
+    margin: 0 auto; /* מרכזת את התפריט */
+    border-radius: 10px; /* ניתן להוסיף עיגול פינות להוספת סגנון */
+    position: sticky; /* הופך את התפריט לדבק (sticky) */
+    top: 0; /* שומר את התפריט צמוד לחלק העליון של הדף */
+    z-index: 1000; /* דואג שהתפריט יישאר מעל תוכן אחר */
+    background-color: white; /* צבע רקע לתפריט */
+    box-shadow: 0 4px 2px -2px gray; /* מוסיף צללת לעילית */
+}
+
+.menu a {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    color: #1D824C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #c7c5c5;
+    border-radius: 5px;
+    border-color: #1D824C;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
+
+#section1 {
+    min-height: 450px; /* גובה מינימלי */
+    padding: 20px;
+    background-color: transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 50px auto 20px auto; /* מרווח עליון של 50 פיקסלים */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 80%; /* רוחב 90% של הדף */
+    color: #333;
+    text-align: center;
+}
+
+
+
+#section2 {
+    min-height: 850px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 25px;
+    color: #333;
+}
+#section3 {
+    min-height: 850px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 25px;
+    color: #333;
+}
+#section4 {
+    min-height: 850px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 16px;
+    color: #333;
+}
+#section5 {
+    min-height: 850px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 16px;
+    color: #333;
+}
+#section6 {
+    min-height: 200px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 16px;
+    color: #333;
+}
+#section6 h3 span.language {
+    color: 1D824C;
+  }
+  
+  #section6 h3 span.level {
+    color: black;
+  }
+
+
+  #section7 {
+    min-height: 200px; /* גובה מינימלי */
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color:transparent; /* רקע לבן */
+    border-radius: 10px; /* פינות מעוגלות */
+    margin: 20px auto; /* מרכז את המקטע */
+    width: 50%; /* רוחב 80% של הדף */
+    font-size: 16px;
+    color: #333;
+  }
+
+.icon-container {
+    display: flex;
+    justify-content: space-around; /* מפזרת את האייקונים בשורה */
+    align-items: center; /* ממקמת את האייקונים במרכז מבחינת גובה */
+}
+
+.icon-box {
+    text-align: center; /* מרכז את הכיתוב */
+    border-radius: 50%; /* פינות עגולות לכל אריזת האייקון */
+    width: 100px; /* רוחב האייקון */
+    height: 100px; /* גובה האייקון */
+    display: flex;
+    flex-direction: column; /* מגדיר שהאייקון והכיתוב יהיו אחד מעל השני */
+    justify-content: center; /* ממקם את האייקון במרכז */
+    align-items: center; /* ממקם את הכיתוב במרכז */
+    background-color: transparent; /* רקע שקוף עם צבע ירוק #1D824C */
+    border: 2px solid #1D824C; /* שוליים בגוון ירוק #1D824C */
+    margin: 10px;
+    overflow: hidden; /* מסתיר חלקים של התמונה שיכולים לחרוג מהעיגול */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* מעברים חלקים לשינוי הצבע וההתרוממות */
+}
+
+.icon-box:hover {
+    cursor: pointer; /* משנה את הלחצן של העכבר ליד (Pointer) */
+    background-color: rgba(29, 130, 76, 0.2); /* רקע שקוף עם צבע ירוק #1D824C */
+    transform: scale(1.1); /* מעט מגדיל את העיגול בעת מעבר עליו */
+}
+
+.icon {
+    width: 40%; /* תופס את כל הרוחב של האלמנט */
+    height: 40%; /* תופס את כל הגובה של האלמנט */
+    object-fit: cover; /* שומר על פרופורציות וממלא את העיגול */
+}
+
+
+.icon-box p {
+    margin-top: 10px; /* רווח בין האייקון לכיתוב */
+    font-size: 14px;
+    color: #333; /* צבע הכיתוב */
+}
+
+h2 {
+    text-align: center;
+    color: #1D824C; /* צבע לכותרת הראשית */
+    font-size: 60px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #1D824C; /* צבע לכותרת משנה */
+    margin-bottom: 3;
+    
+}
+h4{
+    font-size: 28px;
+    color: #1D824C; 
+    margin-top: 0;
+    
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
