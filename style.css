@@ -208,4 +208,33 @@ ul {
 ul li {
     margin-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* התפריט הופך לעמודה */
+        gap: 5px; /* רווחים קטנים יותר */
+    }
+
+    .menu a {
+        font-size: 14px; /* הקטנת גודל הפונט בתפריט */
+        padding: 8px; /* ריווח קטן יותר */
+    }
+
+    .title {
+        font-size: 50px; /* הכותרת קטנה יותר בנייד */
+    }
+
+    #section7 {
+        width: 90%; /* התאמת רוחב המקטע */
+    }
+
+    .icon-box {
+        width: 70px; /* התאמת גודל האייקון */
+        height: 70px;
+    }
+
+    .icon {
+        width: 60%; /* התאמת גודל האייקון */
+        height: 60%;
+    }
+}
 
